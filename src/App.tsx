@@ -1,5 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import HomeLayout from "./pages/HomeLayout"
+import {
+  DashboardLayout,
+  HomeLayout, Login, Register
+} from './pages'
 
 const router = createBrowserRouter([
   {
